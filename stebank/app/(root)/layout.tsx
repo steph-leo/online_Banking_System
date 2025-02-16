@@ -4,8 +4,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <main>
-
-    </main>  
-    );
+    <html lang="en">
+      <body>
+        <main>
+          SIDEBAR
+          {children}
+        </main>
+      </body>
+    </html>
+  );
 }
